@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="author" content="Yarick Spruijt">
+    <meta name="description" content="HTML opdracht">
+    <meta name="keywords" content="HTML, Opdracht, Avans, CMD">
+    <title>Klachtenformulier</title>
+  </head>
+
+  <body>
+    <form name="Klachtenformulier" method="post" action="verstuurd.html">
+    <fieldset>
+      <legend><strong>Mijn gegevens</strong></legend>
+        <p>
+          <label>
+            <strong>Naam (verplicht):</strong>
+              <input name="naam" type="text" required>
+            </label>
+        </P>
+
+        <p>
+          <strong>Klas</strong><br>
+            <select name="Klas">
+              <option value="AB">AB</option>
+              <option value="CD">CD</option>
+              <option value="EF">EF</option>
+              <option value="GH">GH</option>
+              <option value="HI">HI</option>
+              <option value="JK">JK</option>
+              <option value="LM">LM</option>
+            </select>
+        </p>
+
+        <p>
+          <strong>Docent:</strong><br>
+            <input name="docent" type="radio" value="Rene"><strong>Rene</strong><br>
+            <input name="docent" type="radio" value="Theron"><strong>Theron</strong><br>
+            <input name="docent" type="radio" value="Bas"><strong>Bas</strong><br>
+            <input name="docent" type="radio" value="Frans"><strong>Frans</strong>
+        </p>
+    </fieldset>
+
+      <p>
+        <label>
+          <strong>Wat vind je tot nu toe van dit vak?</strong><br>
+          <textarea placeholder="interessant, moeilijk, ..."></textarea>
+        </label>
+      </p>
+
+      <p>
+        Welke zwemdiploma's heb je?<br>
+          <input Name="Vak" type="checkbox" value="A">A
+          <input Name="Vak" type="checkbox" value="B">B
+          <input Name="Vak" type="checkbox" value="C">C
+      </p>
+
+      <input type="reset" value="Formulier leeg maken">
+      <input type="submit" value="Formulier versturen">
+    </form>
+
+  </body>
+</html>
