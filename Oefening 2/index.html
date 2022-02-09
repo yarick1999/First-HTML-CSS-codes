@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="author" content="Yarick Spruijt">
+    <meta name="description" content="HTML opdracht">
+    <meta name="keywords" content="HTML, Opdracht, Avans, CMD">
+    <title>Klachtenformulier Oefenen</title>
+  </head>
+
+  <body>
+    <form name="Klachtenformulier" method="post" action="verstuurd.html">
+
+      <p>
+        Naam (verplicht):
+        <input name="naam" type="text" required>
+      </P>
+
+      <p> Docenten<br>
+        <input name="docent" type="radio" value="Bas">Bas<br>
+        <input name="docent" type="radio" value="Frans">Frans<br>
+        <input name="docent" type="radio" value="René">René<br>
+        <input name="docent" type="radio" value="Theron">Theron
+      </p>
+
+      <p>
+        Talen<br>
+        <input name="taal" type="checkbox" value="NL">Nederlands<br>
+        <input name="taal" type="checkbox" value="GB">Engels<br>
+        <input name="taal" type="checkbox" value="ES">Spaans
+      </p>
+
+      <p>
+        vertel eens wat.<br>
+        <textarea>dit is wat text blabla </textarea>
+      </P>
+
+      <p>
+        Opleiding:
+        <select name="opleidinge">
+          <option value="CMD">CMD</option>
+          <option value="ICT">Informatica</option>
+          <option value="ET">Electrotechniek</option>
+          <option value="WTB">Werktuigbouwkunde</option>
+        </select>
+      </P>
+
+        <input type="reset" value="Gegevens wissen">
+        <input type="submit" value="Gegvens versuren">
+
+    </form>
+
+  </body>
+</html>

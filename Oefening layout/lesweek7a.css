@@ -1,0 +1,64 @@
+* {
+  background-color: #318798;
+  border: 1px solid blue;
+  margin: 5px;
+}
+
+body {
+  background-color: orange;
+  width: 900px;
+  margin: auto;
+}
+header {
+  background-color: blue;
+}
+h1 {
+padding: 20px;
+text-align: center;
+}
+
+nav {
+  background-color: lightgrey;
+  float: left;
+  width: 180px;
+  height: 600px;
+}
+
+section {
+  background-color: lightgrey;
+  float: right;
+  width: 680px;
+  height: 600px;
+}
+article{
+  background-color: grey;
+  color: white;
+}
+a{
+  display: block;
+  margin-top: 20px;
+
+}
+img{
+  background-color: cyan;
+  border: 5px solid white;
+  border-top: 5px solid white;
+  border-left: 5px solid white;
+  border-bottom: 5px solid #dddddd;
+  border-right: 5px solid #dddddd;
+}
+aside {
+  background-color: orange;
+  position: fixed;
+  left: 500px;
+  top: 400px;
+  width: 200px;
+}
+footer {
+  clear: both;
+  background-color: cyan;
+}
+
+footer p {
+  text-align: center;
+}

@@ -1,0 +1,26 @@
+html {
+  background-color: #262626
+}
+
+body {
+  margin: auto;
+  width: 600px;
+  color: #D6D6D6; font-family: helvetica;
+
+}
+
+h2 {
+  border-bottom-style: dashed;
+  }
+
+p {
+  font-size: 11px;
+}
+
+img {
+  margin: 2px;
+  position: static;
+  float: right;
+  max-width: 350px;
+  max-height: 350px;
+}
